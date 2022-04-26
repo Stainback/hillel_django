@@ -7,7 +7,7 @@ from rest_framework import generics
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return HttpResponse("Hello, world. You're at the polls index!!!!")
 
 
 class QuestionList(generics.ListCreateAPIView):
